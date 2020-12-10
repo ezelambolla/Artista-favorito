@@ -1,0 +1,83 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    background:url(https://images2.alphacoders.com/111/thumb-1920-1110774.png);
+    color: white;
+}
+.titulo{
+    background:black;
+    color:white;
+}
+
+.discografia{
+   
+    display: flex;
+    justify-content: center;
+}
+.discografia h1{
+    flex-grow:0;
+}
+.discografia ol {
+    flex-grow: 2;
+    align-items: center;
+    margin-top:70px;
+}
+.discografia-elementos{
+    flex-grow:3;
+}
+article li{
+   list-style: none;
+}
+
+.reseña{
+    display:flex;
+    
+}
+section h1{
+    background:black;
+    color:white;
+}
+
+img{
+    width: 700px;
+    height: 394px;
+    box-shadow: black 5px 5px 10px;
+}
+.integrantes{
+    display:flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   
+}
+.integrantes h3{
+    color:white;
+    background: black;
+    margin: 3px;
+}
+.integrantes img{
+    margin: 5px;
+   
+}
+h2{
+    background:black;
+    color:white;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background:black;
+    color:white;
+
+}
+footer div{
+    margin: 3px;
+    
+}
+ footer div a {
+     text-decoration: none;
+ }
+a:visited{
+    color:white;
+}
